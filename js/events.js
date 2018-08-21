@@ -6,6 +6,13 @@ $('p').on('click', function() {
 });
 }
 
+function frameIt() {
+  
+}
+
+
+
+
 $(document).ready(function(){
 // call functions here
 getIt();
