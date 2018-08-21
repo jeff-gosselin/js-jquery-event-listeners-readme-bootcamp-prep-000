@@ -17,7 +17,7 @@ function pressIt() {
     event = event.key;
     if (event === 'g') {
       alert('You have pressed the G key!');
-      event.pres
+      event.preventDefault();
     }
   });
 }
