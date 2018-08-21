@@ -13,7 +13,12 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on('keydown', )
+  $('#typing').on('keydown', function(event) {
+    event = event.key;
+    if (event === 'g') {
+      alert('You have pressed the G key!');
+    }
+  });
 }
 
 
