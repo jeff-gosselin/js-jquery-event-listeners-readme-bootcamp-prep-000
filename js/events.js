@@ -18,6 +18,7 @@ function pressIt() {
     if (event === 'g') {
       alert('You have pressed the G key!');
     }
+    return;
   });
 }
 
